@@ -1,0 +1,158 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	setlocale(0, "");
+
+	cout << "[*] Переводчик \n";
+	cout << "[1] Русские слова \n";
+	cout << "[2] Английские слова \n";
+	cout << "[3] Выйти \n";
+	int choose;
+	cin >> choose;
+
+	int word;
+	switch (choose == 1) {
+	case 1:
+		cout << "[*] Список Русских слов \n";
+		cout << "[1] Дорога \n";
+		cout << "[2] Дверь \n";
+		cout << "[3] Дом \n";
+		cout << "[4] Школа\n";
+		cout << "[5] Дрова\n";
+		cout << "[6] Дерево\n";
+		cout << "[7] Деньги\n";
+		cout << "[8] Долгий\n";
+		cout << "[9] Время\n";
+		cout << "[10] Газета\n";
+		cout << "[11] Вода\n";
+		cout << "[12] Мороженное\n";
+		cout << "[13] Студент\n";
+		cout << "[14] Книга\n";
+		cout << "[15] Человек\n";
+		cout << "Выберите номер слова: "; cin >> word;
+			switch (word) {
+			case 1:
+				cout << "Перевод: " << word << " -> road\n";
+				break;
+			case 2:
+				cout << "Перевод: " << word << " -> door\n";
+				break;
+			case 3:
+				cout << "Перевод: " << word << " -> house\n";
+				break;
+			case 4:
+				cout << "Перевод: " << word << " -> school\n";
+				break;
+			case 5:
+				cout << "Перевод: " << word << " -> firewood\n";
+				break;
+			case 6:
+				cout << "Перевод: " << word << " -> tree\n";
+				break;
+			case 7:
+				cout << "Перевод: " << word << " -> money\n";
+				break;
+			case 8:
+				cout << "Перевод: " << word << " -> long\n";
+				break;
+			case 9:
+				cout << "Перевод: " << word << " -> time\n";
+				break;
+			case 10:
+				cout << "Перевод: " << word << " -> newspaper\n";
+				break;
+			case 11:
+				cout << "Перевод: " << word << " -> water\n";
+				break;
+			case 12:
+				cout << "Перевод: " << word << " -> ice cream\n";
+				break;
+			case 13:
+				cout << "Перевод: " << word << " -> student\n";
+				break;
+			case 14:
+				cout << "Перевод: " << word << " -> book\n";
+				break;
+			case 15:
+				cout << "Перевод: " << word << " -> human\n";
+				break;
+			}
+		break;
+	}
+
+	switch (choose == 2) {
+	case 1:
+		cout << "[*] Список Английских слов \n";
+		cout << "[1] People \n";
+		cout << "[2] Purple \n";
+		cout << "[3] Project \n";
+		cout << "[4] Car\n";
+		cout << "[5] Summer\n";
+		cout << "[6] Winter\n";
+		cout << "[7] Spring\n";
+		cout << "[8] Dust\n";
+		cout << "[9] Drive\n";
+		cout << "[10] Bicycle\n";
+		cout << "[11] girl\n";
+		cout << "[12] man\n";
+		cout << "[13] boy\n";
+		cout << "[14] wife\n";
+		cout << "[15] husband\n";
+		cout << "Выберите номер слова: "; cin >> word;
+		switch (word) {
+		case 1:
+			cout << "translate: " << word << " -> Люди\n";
+			break;
+		case 2:
+			cout << "translate: " << word << " -> Фиолетовый\n";
+			break;
+		case 3:
+			cout << "translate: " << word << " -> Проект\n";
+			break;
+		case 4:
+			cout << "translate: " << word << " -> Машина\n";
+			break;
+		case 5:
+			cout << "translate: " << word << " -> Лето\n";
+			break;
+		case 6:
+			cout << "translate: " << word << " -> Зима\n";
+			break;
+		case 7:
+			cout << "translate: " << word << " -> Весна\n";
+			break;
+		case 8:
+			cout << "translate: " << word << " -> Пыль\n";
+			break;
+		case 9:
+			cout << "translate: " << word << " -> Ехать\n";
+			break;
+		case 10:
+			cout << "translate: " << word << " -> Велосипед\n";
+			break;
+		case 11:
+			cout << "translate: " << word << " -> Девочка\n";
+			break;
+		case 12:
+			cout << "translate: " << word << " -> Мужчина\n";
+			break;
+		case 13:
+			cout << "translate: " << word << " -> Мальчик\n";
+			break;
+		case 14:
+			cout << "translate: " << word << " -> Жена\n";
+			break;
+		case 15:
+			cout << "translate: " << word << " -> Муж\n";
+			break;
+		}
+		break;
+	}
+	switch (choose == 3) {
+	case 1:
+		system("cls");
+		break;
+	}
+	int _; cin >> _;
+}
